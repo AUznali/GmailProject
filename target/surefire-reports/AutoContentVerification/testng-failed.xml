@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AutoContentVerification]">
+  <parameter name="BDay_1" value="20"/>
+  <parameter name="TelNumb_1" value="6190000000"/>
+  <parameter name="TelCode_1" value="+1"/>
+  <parameter name="Gndr_1" value="Male"/>
+  <parameter name="Surname_1" value="Ivanov"/>
+  <parameter name="BYear_1" value="1999"/>
+  <parameter name="Country_1" value="France"/>
+  <parameter name="Password_1" value="1234567"/>
+  <parameter name="BMonth_1" value="March"/>
+  <parameter name="ElMailRecov_1" value="ivanRecovery@ivan.com"/>
+  <parameter name="Name_1" value="Petr"/>
+  <parameter name="ElMail_1" value="ivan@ivan.com"/>
+  <test thread-count="5" verbose="0" name="Sign up new user(failed)">
+    <classes>
+      <class name="TestsSignUpPage.NewUserPositive">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="test"/>
+          <include name="setup"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestsSignUpPage.NewUserPositive -->
+    </classes>
+  </test> <!-- Sign up new user(failed) -->
+</suite> <!-- Failed suite [AutoContentVerification] -->

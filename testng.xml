@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AutoContentVerification">
+
+    <!--DATA FOR TESTS-->
+
+    <!-- User credentials (Positive => "Posit") -->
+    <parameter name="namePosit" value="Petr"/>
+    <parameter name="surnamePosit" value="Ivanov"/>
+    <parameter name="elMailPosit" value="ivan@ivan.com"/>
+    <parameter name="passwordPosit" value="1234567"/>
+    <parameter name="bDayPosit" value="20"/>
+    <parameter name="bYearPosit" value="1999"/>
+    <parameter name="telNumbPosit" value="6190000000"/>
+    <parameter name="elMailRecovPosit" value="ivanRecovery@ivan.com"/>
+
+
+    <test name="Sign up new user">
+
+        <!--<package name = "TestsSignUpPage" />-->
+
+        <classes>
+            <!--<class name = "TestsSignUpPage.RequiredFields"/>-->
+            <class name = "TestsSignUpPage1.TestingElemets"/>
+            <!--<class name = "extentReports.ExtentReportsClassVersion3"/>-->
+
+
+        </classes>
+
+
+    </test>
+</suite>

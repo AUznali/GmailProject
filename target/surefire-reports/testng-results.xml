@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutoContentVerification" duration-ms="40" started-at="2018-03-17T17:36:48Z" finished-at="2018-03-17T17:36:48Z">
+    <groups>
+    </groups>
+    <test name="Sign up new user" duration-ms="40" started-at="2018-03-17T17:36:48Z" finished-at="2018-03-17T17:36:48Z">
+      <class name="TestsSignUpPage1.TestingElemets">
+        <test-method status="PASS" signature="testingElements()[pri:0, instance:TestsSignUpPage1.TestingElemets@4157f54e]" name="testingElements" duration-ms="8" started-at="2018-03-17T17:36:48Z" finished-at="2018-03-17T17:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingElements -->
+      </class> <!-- TestsSignUpPage1.TestingElemets -->
+    </test> <!-- Sign up new user -->
+  </suite> <!-- AutoContentVerification -->
+</testng-results>

@@ -1,0 +1,48 @@
+# Created on 2018-03-11T14:04:34.386
+org.testng.TestNGException: 
+Cannot instantiate class TestsSignUpPage.NewUserPositive
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:30)
+	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:423)
+	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:336)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:125)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:190)
+	at org.testng.TestClass.getInstances(TestClass.java:95)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:81)
+	at org.testng.TestClass.init(TestClass.java:73)
+	at org.testng.TestClass.<init>(TestClass.java:38)
+	at org.testng.TestRunner.initMethods(TestRunner.java:389)
+	at org.testng.TestRunner.init(TestRunner.java:271)
+	at org.testng.TestRunner.init(TestRunner.java:241)
+	at org.testng.TestRunner.<init>(TestRunner.java:167)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:24)
+	... 27 more
+Caused by: java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:882)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:96)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at Pages.SignUpPage.<init>(SignUpPage.java:20)
+	at TestsSignUpPage.NewUserPositive.<init>(NewUserPositive.java:23)
+	... 32 more
+
+
