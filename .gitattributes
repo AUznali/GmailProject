@@ -1,6 +1,2 @@
-
-down vote
-I found the simplest thing was this .gitattributes file:
-
 * linguist-vendored
 *.java linguist-vendored=false
