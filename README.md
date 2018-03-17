@@ -1,4 +1,5 @@
-Project details: Java / Selenium WebDriver/ PageFactory/ TestNG  
+# Project details: 
+Java / Selenium WebDriver/ PageFactory/ TestNG  
 This Project is under development.  
 Idea of the project: Show different solutions for different tasks.
  
