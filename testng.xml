@@ -21,9 +21,9 @@
         <!--<package name = "TestsSignUpPage" />-->
 
         <classes>
-            <!--<class name = "TestsSignUpPage.RequiredFields"/>-->
-            <class name = "TestsSignUpPage1.TestingElemets"/>
-            <!--<class name = "extentReports.ExtentReportsClassVersion3"/>-->
+            <class name = "TestsSignUpPage.RequiredFields"/>
+            <!--<class name = "TestsSignUpPage1.TestingElemets"/>-->
+            <class name = "extentReports.ExtentReportsClassVersion3"/>
 
 
         </classes>
