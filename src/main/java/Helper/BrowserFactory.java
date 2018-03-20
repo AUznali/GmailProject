@@ -29,7 +29,7 @@ public class BrowserFactory {
 
         //FIREFOX
         if (browserName.equalsIgnoreCase("firefox")) {
-            System.setProperty("webdriver.gecko.driver", "/Users/macbook/Documents/Selenium/Browser Drivers/Firefox GecoDeriver/geckodriver");
+            System.setProperty("webdriver.gecko.driver", "/Users/macbook/JAVA_files/GitHub/GmailProject/geckodriver");
             driver = new FirefoxDriver();
         }
 
