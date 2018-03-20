@@ -121,5 +121,4 @@ public class RequiredFields {
     public void closeDriver(){
        driver.quit();
     }
-
 }
