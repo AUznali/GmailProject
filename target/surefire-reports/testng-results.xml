@@ -2,7 +2,7 @@
 <testng-results skipped="1" failed="1" ignored="0" total="12" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="AutoContentVerification" duration-ms="11829" started-at="2018-03-17T23:56:42Z" finished-at="2018-03-17T23:56:53Z">
+  <suite name="AutoContentVerification" duration-ms="11541" started-at="2018-03-18T01:06:18Z" finished-at="2018-03-18T01:06:30Z">
     <groups>
       <group name="ErrorMessages">
         <method signature="RequiredFields.birthDayEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="birthDayEmpty" class="TestsSignUpPage.RequiredFields"/>
@@ -16,21 +16,21 @@
         <method signature="RequiredFields.passEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="passEmpty" class="TestsSignUpPage.RequiredFields"/>
       </group> <!-- ErrorMessages -->
     </groups>
-    <test name="Sign up new user" duration-ms="11829" started-at="2018-03-17T23:56:42Z" finished-at="2018-03-17T23:56:53Z">
+    <test name="Sign up new user" duration-ms="11541" started-at="2018-03-18T01:06:18Z" finished-at="2018-03-18T01:06:30Z">
       <class name="extentReports.ExtentReportsClassVersion3">
-        <test-method status="PASS" signature="startReport()[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="startReport" is-config="true" duration-ms="157" started-at="2018-03-17T23:56:42Z" finished-at="2018-03-17T23:56:42Z">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="startReport" is-config="true" duration-ms="200" started-at="2018-03-18T01:06:18Z" finished-at="2018-03-18T01:06:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="beforeClass" is-config="true" duration-ms="6630" started-at="2018-03-17T23:56:42Z" finished-at="2018-03-17T23:56:48Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="beforeClass" is-config="true" duration-ms="5666" started-at="2018-03-18T01:06:19Z" finished-at="2018-03-18T01:06:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="openDriver()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="openDriver" is-config="true" duration-ms="3200" started-at="2018-03-17T23:56:48Z" finished-at="2018-03-17T23:56:52Z">
+        <test-method status="PASS" signature="openDriver()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="openDriver" is-config="true" duration-ms="3795" started-at="2018-03-18T01:06:24Z" finished-at="2018-03-18T01:06:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openDriver -->
-        <test-method status="FAIL" signature="failTest()[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="failTest" duration-ms="5" started-at="2018-03-17T23:56:53Z" finished-at="2018-03-17T23:56:53Z">
+        <test-method status="FAIL" signature="failTest()[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="failTest" duration-ms="8" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:29Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -77,7 +77,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="getResult" is-config="true" duration-ms="13" started-at="2018-03-17T23:56:53Z" finished-at="2018-03-17T23:56:53Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="getResult" is-config="true" duration-ms="24" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:29Z">
           <params>
             <param index="0">
               <value>
@@ -88,11 +88,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="passTest()[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="passTest" duration-ms="1" started-at="2018-03-17T23:56:53Z" finished-at="2018-03-17T23:56:53Z">
+        <test-method status="PASS" signature="passTest()[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="passTest" duration-ms="1" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="getResult" is-config="true" duration-ms="0" started-at="2018-03-17T23:56:53Z" finished-at="2018-03-17T23:56:53Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="getResult" is-config="true" duration-ms="0" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:29Z">
           <params>
             <param index="0">
               <value>
@@ -103,7 +103,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="SKIP" signature="skipTest()[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="skipTest" duration-ms="0" started-at="2018-03-17T23:56:53Z" finished-at="2018-03-17T23:56:53Z">
+        <test-method status="SKIP" signature="skipTest()[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="skipTest" duration-ms="0" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:29Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping - This is not ready for testing ]]>
@@ -146,7 +146,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- skipTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="getResult" is-config="true" duration-ms="1" started-at="2018-03-17T23:56:53Z" finished-at="2018-03-17T23:56:53Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="getResult" is-config="true" duration-ms="1" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:29Z">
           <params>
             <param index="0">
               <value>
@@ -157,49 +157,49 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="endReport" is-config="true" duration-ms="585" started-at="2018-03-17T23:56:53Z" finished-at="2018-03-17T23:56:53Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:extentReports.ExtentReportsClassVersion3@3551a94]" name="endReport" is-config="true" duration-ms="731" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- extentReports.ExtentReportsClassVersion3 -->
       <class name="TestsSignUpPage.RequiredFields">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="setup" is-config="true" duration-ms="36" started-at="2018-03-17T23:56:42Z" finished-at="2018-03-17T23:56:42Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="setup" is-config="true" duration-ms="17" started-at="2018-03-18T01:06:18Z" finished-at="2018-03-18T01:06:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="birthDayEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="birthDayEmpty" duration-ms="125" started-at="2018-03-17T23:56:52Z" finished-at="2018-03-17T23:56:52Z">
+        <test-method status="PASS" signature="birthDayEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="birthDayEmpty" duration-ms="167" started-at="2018-03-18T01:06:28Z" finished-at="2018-03-18T01:06:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- birthDayEmpty -->
-        <test-method status="PASS" signature="birthMonthEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="birthMonthEmpty" duration-ms="127" started-at="2018-03-17T23:56:52Z" finished-at="2018-03-17T23:56:52Z">
+        <test-method status="PASS" signature="birthMonthEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="birthMonthEmpty" duration-ms="133" started-at="2018-03-18T01:06:28Z" finished-at="2018-03-18T01:06:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- birthMonthEmpty -->
-        <test-method status="PASS" signature="birthYearEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="birthYearEmpty" duration-ms="108" started-at="2018-03-17T23:56:52Z" finished-at="2018-03-17T23:56:52Z">
+        <test-method status="PASS" signature="birthYearEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="birthYearEmpty" duration-ms="101" started-at="2018-03-18T01:06:28Z" finished-at="2018-03-18T01:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- birthYearEmpty -->
-        <test-method status="PASS" signature="eMailEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="eMailEmpty" duration-ms="236" started-at="2018-03-17T23:56:52Z" finished-at="2018-03-17T23:56:52Z">
+        <test-method status="PASS" signature="eMailEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="eMailEmpty" duration-ms="130" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eMailEmpty -->
-        <test-method status="PASS" signature="firstNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="firstNameEmpty" duration-ms="140" started-at="2018-03-17T23:56:52Z" finished-at="2018-03-17T23:56:52Z">
+        <test-method status="PASS" signature="firstNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="firstNameEmpty" duration-ms="132" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstNameEmpty -->
-        <test-method status="PASS" signature="genderEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="genderEmpty" duration-ms="137" started-at="2018-03-17T23:56:52Z" finished-at="2018-03-17T23:56:52Z">
+        <test-method status="PASS" signature="genderEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="genderEmpty" duration-ms="103" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- genderEmpty -->
-        <test-method status="PASS" signature="lastNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="lastNameEmpty" duration-ms="118" started-at="2018-03-17T23:56:52Z" finished-at="2018-03-17T23:56:53Z">
+        <test-method status="PASS" signature="lastNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="lastNameEmpty" duration-ms="89" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lastNameEmpty -->
-        <test-method status="PASS" signature="passAgainEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="passAgainEmpty" duration-ms="104" started-at="2018-03-17T23:56:53Z" finished-at="2018-03-17T23:56:53Z">
+        <test-method status="PASS" signature="passAgainEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="passAgainEmpty" duration-ms="92" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passAgainEmpty -->
-        <test-method status="PASS" signature="passEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="passEmpty" duration-ms="95" started-at="2018-03-17T23:56:53Z" finished-at="2018-03-17T23:56:53Z">
+        <test-method status="PASS" signature="passEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@5a61f5df]" name="passEmpty" duration-ms="107" started-at="2018-03-18T01:06:29Z" finished-at="2018-03-18T01:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passEmpty -->
