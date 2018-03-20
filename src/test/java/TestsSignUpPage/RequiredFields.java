@@ -6,6 +6,7 @@ import Pages.SignUpPage;
 import org.junit.After;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.*;
 
@@ -48,7 +49,10 @@ public class RequiredFields {
     @BeforeTest
     public void beforeClass(){
         //WebDriver initialization
-        driver = BrowserFactory.startBrowser("Firefox");
+        // TEST driver = BrowserFactory.startBrowser("Firefox");
+
+        System.setProperty("webdriver.gecko.driver", "/Users/macbook/JAVA_files/GitHub/GmailProject/geckodriver");
+        driver = new FirefoxDriver();
 
         //PageFactory elements initialization
         sign_up_page = PageFactory.initElements(driver, SignUpPage.class);
