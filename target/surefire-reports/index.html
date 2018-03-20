@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-AutoContentVerification">
-              <span class="suite-name border-failed">AutoContentVerification</span>
+              <span class="suite-name border-passed">AutoContentVerification</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,35 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods, 1 failed,  1 skipped,  10 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-AutoContentVerification" class="hide-methods failed suite-AutoContentVerification"> (hide)</a> <!-- hide-methods failed suite-AutoContentVerification -->
-                      <a href="#" panel-name="suite-AutoContentVerification" class="show-methods failed suite-AutoContentVerification"> (show)</a> <!-- show-methods failed suite-AutoContentVerification -->
-                    </span>
-                    <div class="method-list-content failed suite-AutoContentVerification">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AutoContentVerification" title="extentReports.ExtentReportsClassVersion3" hash-for-method="failTest">failTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-AutoContentVerification -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-AutoContentVerification" class="hide-methods skipped suite-AutoContentVerification"> (hide)</a> <!-- hide-methods skipped suite-AutoContentVerification -->
-                      <a href="#" panel-name="suite-AutoContentVerification" class="show-methods skipped suite-AutoContentVerification"> (show)</a> <!-- show-methods skipped suite-AutoContentVerification -->
-                    </span>
-                    <div class="method-list-content skipped suite-AutoContentVerification">
-                      <span>
-                        <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AutoContentVerification" title="extentReports.ExtentReportsClassVersion3" hash-for-method="skipTest">skipTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-AutoContentVerification -->
+                    <span class="method-stats">9 methods,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -173,11 +145,6 @@
                         <a href="#" class="method navigator-link" panel-name="suite-AutoContentVerification" title="TestsSignUpPage.RequiredFields" hash-for-method="passEmpty">passEmpty</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-AutoContentVerification" title="extentReports.ExtentReportsClassVersion3" hash-for-method="passTest">passTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-AutoContentVerification -->
                   </li>
                 </ul>
@@ -190,59 +157,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-AutoContentVerification" class="panel AutoContentVerification">
-          <div class="suite-AutoContentVerification-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">extentReports.ExtentReportsClassVersion3</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="failTest">
-                  </a> <!-- failTest -->
-                  <span class="method-name">failTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at extentReports.ExtentReportsClassVersion3.failTest(ExtentReportsClassVersion3.java:55)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-AutoContentVerification-class-failed -->
-          <div class="suite-AutoContentVerification-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">extentReports.ExtentReportsClassVersion3</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="skipTest">
-                  </a> <!-- skipTest -->
-                  <span class="method-name">skipTest</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping - This is not ready for testing 
-	at extentReports.ExtentReportsClassVersion3.skipTest(ExtentReportsClassVersion3.java:63)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-AutoContentVerification-class-skipped -->
-          <div class="suite-AutoContentVerification-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">extentReports.ExtentReportsClassVersion3</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="passTest">
-                  </a> <!-- passTest -->
-                  <span class="method-name">passTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-AutoContentVerification-class-passed -->
           <div class="suite-AutoContentVerification-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -335,7 +249,6 @@
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Sign up new user&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestsSignUpPage.RequiredFields&quot;/&gt;
-      &lt;class name=&quot;extentReports.ExtentReportsClassVersion3&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Sign up new user --&gt;
 &lt;/suite&gt; &lt;!-- AutoContentVerification --&gt;
@@ -349,7 +262,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Sign up new user (2 classes)</span>
+                <span class="test-name">Sign up new user (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -415,55 +328,43 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(12);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'birthDayEmpty')
+data.setCell(0, 1, 'birthMonthEmpty')
 data.setCell(0, 2, 'TestsSignUpPage.RequiredFields')
-data.setCell(0, 3, 167);
+data.setCell(0, 3, 251);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'birthMonthEmpty')
+data.setCell(1, 1, 'birthDayEmpty')
 data.setCell(1, 2, 'TestsSignUpPage.RequiredFields')
-data.setCell(1, 3, 133);
+data.setCell(1, 3, 206);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'firstNameEmpty')
 data.setCell(2, 2, 'TestsSignUpPage.RequiredFields')
-data.setCell(2, 3, 132);
+data.setCell(2, 3, 162);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'eMailEmpty')
+data.setCell(3, 1, 'passAgainEmpty')
 data.setCell(3, 2, 'TestsSignUpPage.RequiredFields')
-data.setCell(3, 3, 130);
+data.setCell(3, 3, 149);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'passEmpty')
+data.setCell(4, 1, 'lastNameEmpty')
 data.setCell(4, 2, 'TestsSignUpPage.RequiredFields')
-data.setCell(4, 3, 107);
+data.setCell(4, 3, 145);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'genderEmpty')
+data.setCell(5, 1, 'eMailEmpty')
 data.setCell(5, 2, 'TestsSignUpPage.RequiredFields')
-data.setCell(5, 3, 103);
+data.setCell(5, 3, 140);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'birthYearEmpty')
+data.setCell(6, 1, 'genderEmpty')
 data.setCell(6, 2, 'TestsSignUpPage.RequiredFields')
-data.setCell(6, 3, 101);
+data.setCell(6, 3, 138);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'passAgainEmpty')
+data.setCell(7, 1, 'passEmpty')
 data.setCell(7, 2, 'TestsSignUpPage.RequiredFields')
-data.setCell(7, 3, 92);
+data.setCell(7, 3, 133);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'lastNameEmpty')
+data.setCell(8, 1, 'birthYearEmpty')
 data.setCell(8, 2, 'TestsSignUpPage.RequiredFields')
-data.setCell(8, 3, 89);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'failTest')
-data.setCell(9, 2, 'extentReports.ExtentReportsClassVersion3')
-data.setCell(9, 3, 8);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'passTest')
-data.setCell(10, 2, 'extentReports.ExtentReportsClassVersion3')
-data.setCell(10, 3, 1);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'skipTest')
-data.setCell(11, 2, 'extentReports.ExtentReportsClassVersion3')
-data.setCell(11, 3, 0);
+data.setCell(8, 3, 120);
 window.suiteTableData['AutoContentVerification']= { tableData: data, tableDiv: 'times-div-AutoContentVerification'}
 return data;
 }
@@ -499,93 +400,50 @@ return data;
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">extentReports.ExtentReportsClassVersion3</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">startReport</span>
-                <span class="method-start">19 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestsSignUpPage.RequiredFields</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">219 ms</span>
+                <span class="method-start">17 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">openDriver</span>
-                <span class="method-start">5885 ms</span>
+                <span class="method-start">5524 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">birthDayEmpty</span>
-                <span class="method-start">9721 ms</span>
+                <span class="method-start">11272 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">birthMonthEmpty</span>
-                <span class="method-start">9889 ms</span>
+                <span class="method-start">11480 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">birthYearEmpty</span>
-                <span class="method-start">10022 ms</span>
+                <span class="method-start">11732 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">eMailEmpty</span>
-                <span class="method-start">10124 ms</span>
+                <span class="method-start">11853 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">firstNameEmpty</span>
-                <span class="method-start">10254 ms</span>
+                <span class="method-start">11994 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">genderEmpty</span>
-                <span class="method-start">10386 ms</span>
+                <span class="method-start">12157 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">lastNameEmpty</span>
-                <span class="method-start">10489 ms</span>
+                <span class="method-start">12296 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">passAgainEmpty</span>
-                <span class="method-start">10578 ms</span>
+                <span class="method-start">12442 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">passEmpty</span>
-                <span class="method-start">10671 ms</span>
+                <span class="method-start">12592 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">extentReports.ExtentReportsClassVersion3</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">failTest</span>
-                <span class="method-start">10781 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=failTest status=FAILURE method=ExtentReportsClassVersion3.failTest()[pri:0, instanc...)</span>
-                <span class="method-start">10801 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">passTest</span>
-                <span class="method-start">10825 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=passTest status=SUCCESS method=ExtentReportsClassVersion3.passTest()[pri:0, instanc...)</span>
-                <span class="method-start">10826 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">skipTest</span>
-                <span class="method-start">10827 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">getResult([TestResult name=skipTest status=SKIP method=ExtentReportsClassVersion3.skipTest()[pri:0, instance:e...)</span>
-                <span class="method-start">10828 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">endReport</span>
-                <span class="method-start">10829 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

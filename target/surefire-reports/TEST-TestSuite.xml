@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.396" tests="12" errors="0" skipped="1" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="13.559" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/macbook/JAVA_files/GitHub/GmailProject/target/surefire/surefirebooter6232214645248387416.jar /Users/macbook/JAVA_files/GitHub/GmailProject/target/surefire 2018-03-17T18-06-17_441-jvmRun1 surefire7045176843793054156tmp surefire_08954560313420546947tmp"/>
+    <property name="sun.java.command" value="/Users/macbook/JAVA_files/GitHub/GmailProject/target/surefire/surefirebooter829113024745524744.jar /Users/macbook/JAVA_files/GitHub/GmailProject/target/surefire 2018-03-20T12-21-41_794-jvmRun1 surefire3440629890755066915tmp surefire_01025514937631754493tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/macbook/JAVA_files/GitHub/GmailProject/target/test-classes:/Users/macbook/JAVA_files/GitHub/GmailProject/target/classes:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-java/3.10.0/selenium-java-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-api/3.10.0/selenium-api-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.10.0/selenium-chrome-driver-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.10.0/selenium-edge-driver-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.10.0/selenium-firefox-driver-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.10.0/selenium-ie-driver-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.10.0/selenium-opera-driver-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.10.0/selenium-safari-driver-3.10.0.jar:/Users/macbook/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/macbook/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/macbook/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/macbook/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/macbook/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/macbook/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/macbook/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/macbook/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/macbook/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/macbook/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/macbook/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/macbook/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/macbook/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/macbook/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/Users/macbook/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/macbook/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.10.0/selenium-remote-driver-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-support/3.4.0/selenium-support-3.4.0.jar:/Users/macbook/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/Users/macbook/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/macbook/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/macbook/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/macbook/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/macbook/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/macbook/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/macbook/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/macbook/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/macbook/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/macbook/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/macbook/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/macbook/.m2/repository/com/aventstack/extentreports/3.1.3/extentreports-3.1.3.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/macbook/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/macbook/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/macbook/JAVA_files/GitHub/GmailProject/target/surefire/surefirebooter6232214645248387416.jar"/>
+    <property name="surefire.real.class.path" value="/Users/macbook/JAVA_files/GitHub/GmailProject/target/surefire/surefirebooter829113024745524744.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -62,22 +62,13 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="birthDayEmpty" classname="TestsSignUpPage.RequiredFields" time="0.173"/>
-  <testcase name="birthMonthEmpty" classname="TestsSignUpPage.RequiredFields" time="0.117"/>
-  <testcase name="birthYearEmpty" classname="TestsSignUpPage.RequiredFields" time="0.101"/>
-  <testcase name="eMailEmpty" classname="TestsSignUpPage.RequiredFields" time="0.13"/>
-  <testcase name="firstNameEmpty" classname="TestsSignUpPage.RequiredFields" time="0.131"/>
-  <testcase name="genderEmpty" classname="TestsSignUpPage.RequiredFields" time="0.102"/>
-  <testcase name="lastNameEmpty" classname="TestsSignUpPage.RequiredFields" time="0.089"/>
-  <testcase name="passAgainEmpty" classname="TestsSignUpPage.RequiredFields" time="0.093"/>
-  <testcase name="passEmpty" classname="TestsSignUpPage.RequiredFields" time="0.107"/>
-  <testcase name="failTest" classname="extentReports.ExtentReportsClassVersion3" time="0.021">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at extentReports.ExtentReportsClassVersion3.failTest(ExtentReportsClassVersion3.java:55)
-</failure>
-  </testcase>
-  <testcase name="passTest" classname="extentReports.ExtentReportsClassVersion3" time="0.001"/>
-  <testcase name="skipTest" classname="extentReports.ExtentReportsClassVersion3" time="0">
-    <skipped message="Skipping - This is not ready for testing "/>
-  </testcase>
+  <testcase name="birthDayEmpty" classname="TestsSignUpPage.RequiredFields" time="0.215"/>
+  <testcase name="birthMonthEmpty" classname="TestsSignUpPage.RequiredFields" time="0.227"/>
+  <testcase name="birthYearEmpty" classname="TestsSignUpPage.RequiredFields" time="0.12"/>
+  <testcase name="eMailEmpty" classname="TestsSignUpPage.RequiredFields" time="0.141"/>
+  <testcase name="firstNameEmpty" classname="TestsSignUpPage.RequiredFields" time="0.16"/>
+  <testcase name="genderEmpty" classname="TestsSignUpPage.RequiredFields" time="0.137"/>
+  <testcase name="lastNameEmpty" classname="TestsSignUpPage.RequiredFields" time="0.146"/>
+  <testcase name="passAgainEmpty" classname="TestsSignUpPage.RequiredFields" time="0.15"/>
+  <testcase name="passEmpty" classname="TestsSignUpPage.RequiredFields" time="0.134"/>
 </testsuite>
