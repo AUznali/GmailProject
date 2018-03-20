@@ -117,9 +117,9 @@ public class RequiredFields {
 
 
 
-   // @AfterTest
+    @AfterTest
     public void closeDriver(){
-       driver.close();
+       driver.quit();
     }
 
 }
