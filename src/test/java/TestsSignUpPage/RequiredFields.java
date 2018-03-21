@@ -48,7 +48,7 @@ public class RequiredFields {
     @BeforeTest
     public void beforeClass(){
         //WebDriver initialization
-        driver = BrowserFactory.startBrowser("Firefox");
+        driver = BrowserFactory.startBrowser("Chrome");
 
         //PageFactory elements initialization
         sign_up_page = PageFactory.initElements(driver, SignUpPage.class);
