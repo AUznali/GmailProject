@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90270f7a-9ce2-46fa-a13d-6811f7d60997" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/gmail-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestsSignUpPage/RequiredFields.class" afterPath="$PROJECT_DIR$/target/test-classes/TestsSignUpPage/RequiredFields.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Helper/BrowserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/Helper/BrowserFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestsSignUpPage/RequiredFields.java" afterPath="$PROJECT_DIR$/src/test/java/TestsSignUpPage/RequiredFields.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/AutoContentVerification/Sign up new user.html" afterPath="$PROJECT_DIR$/target/surefire-reports/AutoContentVerification/Sign up new user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/AutoContentVerification/Sign up new user.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/AutoContentVerification/Sign up new user.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestsSignUpPage.RequiredFields.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-TestsSignUpPage.RequiredFields.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/AutoContentVerification/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/AutoContentVerification/methods-alphabetical.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/AutoContentVerification/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/AutoContentVerification/methods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/AutoContentVerification/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/AutoContentVerification/toc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
     </list>
     <ignored path="gmail.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,8 +66,8 @@
       <file leaf-file-name="BrowserFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Helper/BrowserFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="413">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -920,8 +903,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Helper/BrowserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="413">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
