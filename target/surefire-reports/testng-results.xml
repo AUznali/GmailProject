@@ -2,7 +2,7 @@
 <testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="AutoContentVerification" duration-ms="10827" started-at="2018-03-20T20:26:41Z" finished-at="2018-03-20T20:26:52Z">
+  <suite name="AutoContentVerification" duration-ms="10658" started-at="2018-03-21T01:28:26Z" finished-at="2018-03-21T01:28:37Z">
     <groups>
       <group name="ErrorMessages">
         <method signature="RequiredFields.birthDayEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="birthDayEmpty" class="TestsSignUpPage.RequiredFields"/>
@@ -16,57 +16,57 @@
         <method signature="RequiredFields.passEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="passEmpty" class="TestsSignUpPage.RequiredFields"/>
       </group> <!-- ErrorMessages -->
     </groups>
-    <test name="Sign up new user" duration-ms="10827" started-at="2018-03-20T20:26:41Z" finished-at="2018-03-20T20:26:52Z">
+    <test name="Sign up new user" duration-ms="10658" started-at="2018-03-21T01:28:26Z" finished-at="2018-03-21T01:28:37Z">
       <class name="TestsSignUpPage.RequiredFields">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="setup" is-config="true" duration-ms="15" started-at="2018-03-20T20:26:41Z" finished-at="2018-03-20T20:26:41Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="setup" is-config="true" duration-ms="21" started-at="2018-03-21T01:28:26Z" finished-at="2018-03-21T01:28:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="beforeClass" is-config="true" duration-ms="6012" started-at="2018-03-20T20:26:41Z" finished-at="2018-03-20T20:26:47Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="beforeClass" is-config="true" duration-ms="5983" started-at="2018-03-21T01:28:26Z" finished-at="2018-03-21T01:28:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="openDriver()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="openDriver" is-config="true" duration-ms="3468" started-at="2018-03-20T20:26:47Z" finished-at="2018-03-20T20:26:51Z">
+        <test-method status="PASS" signature="openDriver()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="openDriver" is-config="true" duration-ms="3331" started-at="2018-03-21T01:28:32Z" finished-at="2018-03-21T01:28:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openDriver -->
-        <test-method status="PASS" signature="birthDayEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="birthDayEmpty" duration-ms="139" started-at="2018-03-20T20:26:51Z" finished-at="2018-03-20T20:26:51Z">
+        <test-method status="PASS" signature="birthDayEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="birthDayEmpty" duration-ms="141" started-at="2018-03-21T01:28:35Z" finished-at="2018-03-21T01:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- birthDayEmpty -->
-        <test-method status="PASS" signature="birthMonthEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="birthMonthEmpty" duration-ms="130" started-at="2018-03-20T20:26:51Z" finished-at="2018-03-20T20:26:51Z">
+        <test-method status="PASS" signature="birthMonthEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="birthMonthEmpty" duration-ms="126" started-at="2018-03-21T01:28:36Z" finished-at="2018-03-21T01:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- birthMonthEmpty -->
-        <test-method status="PASS" signature="birthYearEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="birthYearEmpty" duration-ms="94" started-at="2018-03-20T20:26:51Z" finished-at="2018-03-20T20:26:51Z">
+        <test-method status="PASS" signature="birthYearEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="birthYearEmpty" duration-ms="103" started-at="2018-03-21T01:28:36Z" finished-at="2018-03-21T01:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- birthYearEmpty -->
-        <test-method status="PASS" signature="eMailEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="eMailEmpty" duration-ms="132" started-at="2018-03-20T20:26:51Z" finished-at="2018-03-20T20:26:51Z">
+        <test-method status="PASS" signature="eMailEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="eMailEmpty" duration-ms="137" started-at="2018-03-21T01:28:36Z" finished-at="2018-03-21T01:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- eMailEmpty -->
-        <test-method status="PASS" signature="firstNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="firstNameEmpty" duration-ms="118" started-at="2018-03-20T20:26:51Z" finished-at="2018-03-20T20:26:51Z">
+        <test-method status="PASS" signature="firstNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="firstNameEmpty" duration-ms="127" started-at="2018-03-21T01:28:36Z" finished-at="2018-03-21T01:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstNameEmpty -->
-        <test-method status="PASS" signature="genderEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="genderEmpty" duration-ms="107" started-at="2018-03-20T20:26:51Z" finished-at="2018-03-20T20:26:51Z">
+        <test-method status="PASS" signature="genderEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="genderEmpty" duration-ms="120" started-at="2018-03-21T01:28:36Z" finished-at="2018-03-21T01:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- genderEmpty -->
-        <test-method status="PASS" signature="lastNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="lastNameEmpty" duration-ms="107" started-at="2018-03-20T20:26:51Z" finished-at="2018-03-20T20:26:52Z">
+        <test-method status="PASS" signature="lastNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="lastNameEmpty" duration-ms="99" started-at="2018-03-21T01:28:36Z" finished-at="2018-03-21T01:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lastNameEmpty -->
-        <test-method status="PASS" signature="passAgainEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="passAgainEmpty" duration-ms="117" started-at="2018-03-20T20:26:52Z" finished-at="2018-03-20T20:26:52Z">
+        <test-method status="PASS" signature="passAgainEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="passAgainEmpty" duration-ms="96" started-at="2018-03-21T01:28:36Z" finished-at="2018-03-21T01:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passAgainEmpty -->
-        <test-method status="PASS" signature="passEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="passEmpty" duration-ms="112" started-at="2018-03-20T20:26:52Z" finished-at="2018-03-20T20:26:52Z">
+        <test-method status="PASS" signature="passEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="passEmpty" duration-ms="92" started-at="2018-03-21T01:28:36Z" finished-at="2018-03-21T01:28:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passEmpty -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="closeDriver" is-config="true" duration-ms="259" started-at="2018-03-20T20:26:52Z" finished-at="2018-03-20T20:26:52Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:TestsSignUpPage.RequiredFields@3cbbc1e0]" name="closeDriver" is-config="true" duration-ms="271" started-at="2018-03-21T01:28:36Z" finished-at="2018-03-21T01:28:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
