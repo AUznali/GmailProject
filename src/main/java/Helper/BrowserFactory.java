@@ -35,6 +35,7 @@ public class BrowserFactory {
 
         //CHROME
         else if (browserName.equalsIgnoreCase("chrome")) {
+            System.setProperty("webdriver.chrome.driver", "/Users/macbook/JAVA_files/GitHub/GmailProject/webdrivers/chromedriver");
             driver = new ChromeDriver();
         }
         return driver;
