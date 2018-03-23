@@ -1,76 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="9" passed="9">
+<testng-results skipped="1" failed="1" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="AutoContentVerification" duration-ms="13008" started-at="2018-03-23T04:23:00Z" finished-at="2018-03-23T04:23:13Z">
+  <suite name="AutoContentVerification" duration-ms="780" started-at="2018-03-23T04:50:39Z" finished-at="2018-03-23T04:50:40Z">
     <groups>
-      <group name="ErrorMessages">
-        <method signature="RequiredFields.birthDayEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="birthDayEmpty" class="TestsSignUpPage.RequiredFields"/>
-        <method signature="RequiredFields.birthMonthEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="birthMonthEmpty" class="TestsSignUpPage.RequiredFields"/>
-        <method signature="RequiredFields.birthYearEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="birthYearEmpty" class="TestsSignUpPage.RequiredFields"/>
-        <method signature="RequiredFields.eMailEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="eMailEmpty" class="TestsSignUpPage.RequiredFields"/>
-        <method signature="RequiredFields.firstNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="firstNameEmpty" class="TestsSignUpPage.RequiredFields"/>
-        <method signature="RequiredFields.genderEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="genderEmpty" class="TestsSignUpPage.RequiredFields"/>
-        <method signature="RequiredFields.lastNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="lastNameEmpty" class="TestsSignUpPage.RequiredFields"/>
-        <method signature="RequiredFields.passAgainEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="passAgainEmpty" class="TestsSignUpPage.RequiredFields"/>
-        <method signature="RequiredFields.passEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="passEmpty" class="TestsSignUpPage.RequiredFields"/>
-      </group> <!-- ErrorMessages -->
     </groups>
-    <test name="Sign up new user" duration-ms="13008" started-at="2018-03-23T04:23:00Z" finished-at="2018-03-23T04:23:13Z">
-      <class name="TestsSignUpPage.RequiredFields">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="setup" is-config="true" duration-ms="11" started-at="2018-03-22T21:23:00Z" finished-at="2018-03-22T21:23:00Z">
+    <test name="Sign up new user" duration-ms="780" started-at="2018-03-23T04:50:39Z" finished-at="2018-03-23T04:50:40Z">
+      <class name="extentReports.ExtentReportsClassVersion3">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:extentReports.ExtentReportsClassVersion3@50f8360d]" name="startReport" is-config="true" duration-ms="176" started-at="2018-03-22T21:50:39Z" finished-at="2018-03-22T21:50:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="beforeClass" is-config="true" duration-ms="6748" started-at="2018-03-22T21:23:00Z" finished-at="2018-03-22T21:23:07Z">
+        </test-method> <!-- startReport -->
+        <test-method status="FAIL" signature="failTest()[pri:0, instance:extentReports.ExtentReportsClassVersion3@50f8360d]" name="failTest" duration-ms="9" started-at="2018-03-22T21:50:39Z" finished-at="2018-03-22T21:50:39Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at extentReports.ExtentReportsClassVersion3.failTest(ExtentReportsClassVersion3.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="openDriver()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="openDriver" is-config="true" duration-ms="3918" started-at="2018-03-22T21:23:07Z" finished-at="2018-03-22T21:23:11Z">
+        </test-method> <!-- failTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClassVersion3@50f8360d]" name="getResult" is-config="true" duration-ms="18" started-at="2018-03-22T21:50:39Z" finished-at="2018-03-22T21:50:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=failTest status=FAILURE method=ExtentReportsClassVersion3.failTest()[pri:0, instance:extentReports.ExtentReportsClassVersion3@50f8360d] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openDriver -->
-        <test-method status="PASS" signature="birthDayEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="birthDayEmpty" duration-ms="218" started-at="2018-03-22T21:23:11Z" finished-at="2018-03-22T21:23:11Z">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="passTest()[pri:0, instance:extentReports.ExtentReportsClassVersion3@50f8360d]" name="passTest" duration-ms="1" started-at="2018-03-22T21:50:39Z" finished-at="2018-03-22T21:50:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- birthDayEmpty -->
-        <test-method status="PASS" signature="birthMonthEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="birthMonthEmpty" duration-ms="203" started-at="2018-03-22T21:23:11Z" finished-at="2018-03-22T21:23:11Z">
+        </test-method> <!-- passTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClassVersion3@50f8360d]" name="getResult" is-config="true" duration-ms="1" started-at="2018-03-22T21:50:39Z" finished-at="2018-03-22T21:50:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=passTest status=SUCCESS method=ExtentReportsClassVersion3.passTest()[pri:0, instance:extentReports.ExtentReportsClassVersion3@50f8360d] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- birthMonthEmpty -->
-        <test-method status="PASS" signature="birthYearEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="birthYearEmpty" duration-ms="131" started-at="2018-03-22T21:23:11Z" finished-at="2018-03-22T21:23:11Z">
+        </test-method> <!-- getResult -->
+        <test-method status="SKIP" signature="skipTest()[pri:0, instance:extentReports.ExtentReportsClassVersion3@50f8360d]" name="skipTest" duration-ms="1" started-at="2018-03-22T21:50:39Z" finished-at="2018-03-22T21:50:39Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping - This is not ready for testing ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping - This is not ready for testing 
+	at extentReports.ExtentReportsClassVersion3.skipTest(ExtentReportsClassVersion3.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- birthYearEmpty -->
-        <test-method status="PASS" signature="eMailEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="eMailEmpty" duration-ms="147" started-at="2018-03-22T21:23:11Z" finished-at="2018-03-22T21:23:12Z">
+        </test-method> <!-- skipTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:extentReports.ExtentReportsClassVersion3@50f8360d]" name="getResult" is-config="true" duration-ms="3" started-at="2018-03-22T21:50:39Z" finished-at="2018-03-22T21:50:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=skipTest status=SKIP method=ExtentReportsClassVersion3.skipTest()[pri:0, instance:extentReports.ExtentReportsClassVersion3@50f8360d] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- eMailEmpty -->
-        <test-method status="PASS" signature="firstNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="firstNameEmpty" duration-ms="228" started-at="2018-03-22T21:23:12Z" finished-at="2018-03-22T21:23:12Z">
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:extentReports.ExtentReportsClassVersion3@50f8360d]" name="endReport" is-config="true" duration-ms="549" started-at="2018-03-22T21:50:39Z" finished-at="2018-03-22T21:50:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstNameEmpty -->
-        <test-method status="PASS" signature="genderEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="genderEmpty" duration-ms="314" started-at="2018-03-22T21:23:12Z" finished-at="2018-03-22T21:23:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- genderEmpty -->
-        <test-method status="PASS" signature="lastNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="lastNameEmpty" duration-ms="240" started-at="2018-03-22T21:23:12Z" finished-at="2018-03-22T21:23:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lastNameEmpty -->
-        <test-method status="PASS" signature="passAgainEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="passAgainEmpty" duration-ms="232" started-at="2018-03-22T21:23:12Z" finished-at="2018-03-22T21:23:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- passAgainEmpty -->
-        <test-method status="PASS" signature="passEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="passEmpty" duration-ms="177" started-at="2018-03-22T21:23:13Z" finished-at="2018-03-22T21:23:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- passEmpty -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:TestsSignUpPage.RequiredFields@2cb4c3ab]" name="closeDriver" is-config="true" duration-ms="401" started-at="2018-03-22T21:23:13Z" finished-at="2018-03-22T21:23:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- TestsSignUpPage.RequiredFields -->
+        </test-method> <!-- endReport -->
+      </class> <!-- extentReports.ExtentReportsClassVersion3 -->
     </test> <!-- Sign up new user -->
   </suite> <!-- AutoContentVerification -->
 </testng-results>
