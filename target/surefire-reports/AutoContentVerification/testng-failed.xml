@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AutoContentVerification]">
+  <parameter name="elMailRecovPosit" value="ivanRecovery@ivan.com"/>
+  <parameter name="namePosit" value="Petr"/>
+  <parameter name="passwordPosit" value="1234567"/>
+  <parameter name="bDayPosit" value="20"/>
+  <parameter name="elMailPosit" value="ivan@ivan.com"/>
+  <parameter name="surnamePosit" value="Ivanov"/>
+  <parameter name="telNumbPosit" value="6190000000"/>
+  <parameter name="bYearPosit" value="1999"/>
+  <test name="Sign up new user(failed)">
+    <classes>
+      <class name="extentReports.ExtentReportsClassVersion3">
+        <methods>
+          <include name="skipTest"/>
+          <include name="failTest"/>
+          <include name="getResult"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- extentReports.ExtentReportsClassVersion3 -->
+    </classes>
+  </test> <!-- Sign up new user(failed) -->
+</suite> <!-- Failed suite [AutoContentVerification] -->
