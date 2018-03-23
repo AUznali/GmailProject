@@ -56,8 +56,11 @@
     <orderEntry type="library" name="Maven: asm:asm-util:3.2" level="project" />
     <orderEntry type="library" name="Maven: asm:asm-analysis:3.2" level="project" />
     <orderEntry type="library" name="Maven: asm:asm-tree:3.2" level="project" />
-    <orderEntry type="library" name="Maven: org.testng:testng:6.14.2" level="project" />
-    <orderEntry type="library" name="Maven: com.beust:jcommander:1.72" level="project" />
-    <orderEntry type="library" name="Maven: org.apache-extras.beanshell:bsh:2.0b6" level="project" />
+    <orderEntry type="library" name="Maven: org.testng:testng:6.9.9" level="project" />
+    <orderEntry type="library" name="Maven: com.beust:jcommander:1.48" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ant:ant-launcher:1.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.15" level="project" />
+    <orderEntry type="library" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
   </component>
 </module>
