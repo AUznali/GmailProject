@@ -79,7 +79,7 @@ public class RequiredFields {
 
     @Test(groups = {"ErrorMessages"})
     public void eMailEmpty(){
-        sign_up_page.isErrorVisible(email, isEMailEmpty, firstName);
+        sign_up_page.isErrorVisible(email, unameErrorMsg, firstName);
     }
 
     @Test(groups = {"ErrorMessages"})
