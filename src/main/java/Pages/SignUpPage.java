@@ -224,9 +224,11 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElem
 
 
     public void validUname (String username, String expectedErrorText){
+        email.click();
         email.clear();
         email.sendKeys(username);
         firstName.click();
+        firstName.sendKeys(Keys.ENTER);
         System.out.println("= = = = ");
         firstName.sendKeys(Keys.ENTER);
         String text = unameErrorMsg.getText();

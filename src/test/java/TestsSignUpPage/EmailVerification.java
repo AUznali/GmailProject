@@ -84,7 +84,7 @@ public class EmailVerification {
 
 
 
-   // @AfterClass
+   @AfterClass
     public void closeDriver(){
         driver.quit();
     }
