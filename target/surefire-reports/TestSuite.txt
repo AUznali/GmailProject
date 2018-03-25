@@ -1,4 +1,108 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.623 s - in TestSuite
+Tests run: 14, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 129.765 s <<< FAILURE! - in TestSuite
+dashUname(TestsSignUpPage.EmailVerification)  Time elapsed: 11.248 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44f54afb-a756-904e-b268-8232245310d0
+	at TestsSignUpPage.EmailVerification.dashUname(EmailVerification.java:115)
+
+digitsUname(TestsSignUpPage.EmailVerification)  Time elapsed: 11.127 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44f54afb-a756-904e-b268-8232245310d0
+	at TestsSignUpPage.EmailVerification.digitsUname(EmailVerification.java:95)
+
+dotUname(TestsSignUpPage.EmailVerification)  Time elapsed: 10.761 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44f54afb-a756-904e-b268-8232245310d0
+	at TestsSignUpPage.EmailVerification.dotUname(EmailVerification.java:83)
+
+dotsUname(TestsSignUpPage.EmailVerification)  Time elapsed: 10.873 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44f54afb-a756-904e-b268-8232245310d0
+	at TestsSignUpPage.EmailVerification.dotsUname(EmailVerification.java:145)
+
+lastDotUname(TestsSignUpPage.EmailVerification)  Time elapsed: 10.962 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44f54afb-a756-904e-b268-8232245310d0
+	at TestsSignUpPage.EmailVerification.lastDotUname(EmailVerification.java:139)
+
+plusUname(TestsSignUpPage.EmailVerification)  Time elapsed: 11.201 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44f54afb-a756-904e-b268-8232245310d0
+	at TestsSignUpPage.EmailVerification.plusUname(EmailVerification.java:109)
+
+specCharsUname(TestsSignUpPage.EmailVerification)  Time elapsed: 5.124 s  <<< FAILURE!
+java.lang.AssertionError
+	at TestsSignUpPage.EmailVerification.specCharsUname(EmailVerification.java:127)
+
+twoWordsUname(TestsSignUpPage.EmailVerification)  Time elapsed: 10.975 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44f54afb-a756-904e-b268-8232245310d0
+	at TestsSignUpPage.EmailVerification.twoWordsUname(EmailVerification.java:157)
+
+underscoreUname(TestsSignUpPage.EmailVerification)  Time elapsed: 11.365 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44f54afb-a756-904e-b268-8232245310d0
+	at TestsSignUpPage.EmailVerification.underscoreUname(EmailVerification.java:121)
+
+unicodeUname(TestsSignUpPage.EmailVerification)  Time elapsed: 11.32 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44f54afb-a756-904e-b268-8232245310d0
+	at TestsSignUpPage.EmailVerification.unicodeUname(EmailVerification.java:151)
+
+wSpacesUname(TestsSignUpPage.EmailVerification)  Time elapsed: 11.433 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 44f54afb-a756-904e-b268-8232245310d0
+	at TestsSignUpPage.EmailVerification.wSpacesUname(EmailVerification.java:101)
+

@@ -2,12 +2,10 @@ package TestsSignUpPage;
 
 import Helper.BrowserFactory;
 import Pages.SignUpPage;
+import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 
 import java.io.FileInputStream;
@@ -53,12 +51,17 @@ public class EmailVerification {
 
         //Opening test link in browser and changing language
         driver.get(testUrl);
+        driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
+
+        //Checking that correct page is opened. If not, open one more time.
+        if(!(driver.getCurrentUrl().contains(testUrl))){
+            driver.get(testUrl);
+            driver.manage().window().maximize();
+        }
+
         sign_up_page.changeLanguage(language);
     }
-
-
-
 
 
 
@@ -74,12 +77,86 @@ public class EmailVerification {
         sign_up_page.validUname(correctUname, stringExist);
     }
 
-
     @Test
     @Parameters({"dotUname", "stringDotExist"})
     private void dotUname (String dotUname, String stringDotExist){
         sign_up_page.validUname(dotUname, stringDotExist);
     }
+
+    @Test
+    @Parameters({"capitalUname", "stringDotExist"})
+    private void capitalUname (String capitalUname, String stringDotExist){
+        sign_up_page.validUname(capitalUname, stringDotExist);
+    }
+
+    @Test
+    @Parameters({"digitsUname", "stringExist"})
+    private void digitsUname (String digitsUname, String stringExist){
+        sign_up_page.validUname(digitsUname, stringExist);
+    }
+
+    @Test
+    @Parameters({"wSpacesUname", "stringNameTaken"})
+    private void wSpacesUname (String wSpacesUname, String stringNameTaken){
+        sign_up_page.validUname(wSpacesUname, stringNameTaken);
+    }
+
+
+    //NEGATIVE//
+    @Test
+    @Parameters({"plusUname", "stringCorrectChars"})
+    private void plusUname (String plusUname, String stringCorrectChars){
+        sign_up_page.validUname(plusUname, stringCorrectChars);
+    }
+
+    @Test
+    @Parameters({"dashUname", "stringCorrectChars"})
+    private void dashUname (String dashUname, String stringCorrectChars){
+        sign_up_page.validUname(dashUname, stringCorrectChars);
+    }
+
+    @Test
+    @Parameters({"underscoreUname", "stringCorrectChars"})
+    private void underscoreUname (String underscoreUname, String stringCorrectChars){
+        sign_up_page.validUname(underscoreUname, stringCorrectChars);
+    }
+
+    @Test
+    @Parameters({"specCharsUname", "stringCorrectChars"})
+    private void specCharsUname (String specCharsUname, String stringCorrectChars){
+        sign_up_page.validUname(specCharsUname, stringCorrectChars);
+    }
+
+    @Test
+    @Parameters({"firstDotUname", "stringFirstChar"})
+    private void firstDotUname (String firstDotUname, String stringFirstChar){
+        sign_up_page.validUname(firstDotUname, stringFirstChar);
+    }
+
+    @Test
+    @Parameters({"lastDotUname", "stringLastChar"})
+    private void lastDotUname (String lastDotUname, String stringLastChar){
+        sign_up_page.validUname(lastDotUname, stringLastChar);
+    }
+
+    @Test
+    @Parameters({"dotsUname", "stringTwoDots"})
+    private void dotsUname (String dotsUname, String stringTwoDots){
+        sign_up_page.validUname(dotsUname, stringTwoDots);
+    }
+
+    @Test
+    @Parameters({"unicodeUname", "stringCorrectChars"})
+    private void unicodeUname (String unicodeUname, String stringCorrectChars){
+        sign_up_page.validUname(unicodeUname, stringCorrectChars);
+    }
+
+    @Test
+    @Parameters({"twoWordsUname", "stringCorrectChars"})
+    private void twoWordsUname (String twoWordsUname, String stringCorrectChars){
+        sign_up_page.validUname(twoWordsUname, stringCorrectChars);
+    }
+
 
 
 
@@ -88,6 +165,5 @@ public class EmailVerification {
     public void closeDriver(){
         driver.quit();
     }
-
 
 }

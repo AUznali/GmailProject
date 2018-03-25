@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [AutoContentVerification]">
+  <parameter name="namePosit" value="Petr"/>
+  <parameter name="plusUname" value="firstname+lastname"/>
+  <parameter name="stringDotExist" value="Someone already has that username. Note that we ignore periods and capitalization in usernames. Try another?"/>
+  <parameter name="stringCorrectChars" value="Please use only letters (a-z), numbers, and periods."/>
+  <parameter name="specCharsUname" value="!@#$%^*()"/>
+  <parameter name="capitalUname" value="MYEMAIL"/>
+  <parameter name="correctUname" value="myemail"/>
+  <parameter name="wSpacesUname" value="   myemail   "/>
+  <parameter name="stringTwoDots" value="A fan of punctuation! Alas, usernames can&#039;t have consecutive periods."/>
+  <parameter name="elMailRecovPosit" value="ivanRecovery@ivan.com"/>
+  <parameter name="bDayPosit" value="20"/>
+  <parameter name="twoWordsUname" value="email (Joe Smith)"/>
+  <parameter name="elMailPosit" value="ivanpetrov"/>
+  <parameter name="surnamePosit" value="Ivanov"/>
+  <parameter name="dotsUname" value="myemail..myemail"/>
+  <parameter name="stringNameTaken" value="That username is taken. Try another."/>
+  <parameter name="dashUname" value="firstname-lastname"/>
+  <parameter name="bYearPosit" value="1999"/>
+  <parameter name="firstDotUname" value=".myemail"/>
+  <parameter name="stringExist" value="That username is taken. Try another."/>
+  <parameter name="stringLastChar" value="The last character of your username should be a letter (a-z) or number."/>
+  <parameter name="dotUname" value="my.email"/>
+  <parameter name="underscoreUname" value="_______"/>
+  <parameter name="digitsUname" value="123456"/>
+  <parameter name="passwordPosit" value="1234567"/>
+  <parameter name="stringFirstChar" value="The first character of your username should be a letter (a-z) or number."/>
+  <parameter name="unicodeUname" value="あいうえお"/>
+  <parameter name="lastDotUname" value="myemail."/>
+  <parameter name="telNumbPosit" value="6190000000"/>
+  <test name="Sign up new user(failed)">
+    <classes>
+      <class name="TestsSignUpPage.EmailVerification">
+        <methods>
+          <include name="dashUname" invocation-numbers="0"/>
+          <include name="underscoreUname" invocation-numbers="0"/>
+          <include name="plusUname" invocation-numbers="0"/>
+          <include name="wSpacesUname" invocation-numbers="0"/>
+          <include name="dotUname" invocation-numbers="0"/>
+          <include name="dotsUname" invocation-numbers="0"/>
+          <include name="digitsUname" invocation-numbers="0"/>
+          <include name="closeDriver"/>
+          <include name="twoWordsUname" invocation-numbers="0"/>
+          <include name="lastDotUname" invocation-numbers="0"/>
+          <include name="unicodeUname" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="specCharsUname" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestsSignUpPage.EmailVerification -->
+    </classes>
+  </test> <!-- Sign up new user(failed) -->
+</suite> <!-- Failed suite [AutoContentVerification] -->
