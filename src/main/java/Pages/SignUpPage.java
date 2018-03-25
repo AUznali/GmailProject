@@ -5,11 +5,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-
-import java.util.Iterator;
-import java.util.Set;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
 
@@ -125,7 +121,7 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElem
     public static WebElement isLastNameEmpty;
 
     @FindBy(how = How.CSS, using = "span#errormsg_0_GmailAddress.errormsg")
-    public static WebElement isEMailEmpty;
+    public static WebElement unameErrorMsg;
 
     @FindBy(how = How.CSS, using = "span#errormsg_0_Passwd.errormsg")
     public static WebElement isPassEmpty;
@@ -223,6 +219,22 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElem
         lastName.click();
         lastName.sendKeys(name);
     }
+
+
+
+
+    public void validUname (String username, String expectedErrorText){
+        email.clear();
+        email.sendKeys(username);
+        firstName.click();
+        System.out.println("= = = = ");
+        firstName.sendKeys(Keys.ENTER);
+        String text = unameErrorMsg.getText();
+        System.out.println("= = = = = == = = = = = = = " + text);
+        Assert.assertTrue(unameErrorMsg.getText().contains(expectedErrorText));
+    }
+
+
 
 
 /*    Check if error message (text) is visible if required field was not filled
