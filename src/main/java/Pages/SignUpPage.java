@@ -4,7 +4,9 @@ import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
@@ -17,8 +19,6 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElem
 
     WebDriver driver;
 
-    //Wait driver
-    //WebDriverWait wait = new WebDriverWait(driver, 10);
 
 
     //Constructor
@@ -224,14 +224,26 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElem
 
 
     public void validUname (String username, String expectedErrorText){
+        email.click();
         email.clear();
         email.sendKeys(username);
         firstName.click();
-        System.out.println("= = = = ");
         firstName.sendKeys(Keys.ENTER);
-        String text = unameErrorMsg.getText();
-        System.out.println("= = = = = == = = = = = = = " + text);
-        Assert.assertTrue(unameErrorMsg.getText().contains(expectedErrorText));
+
+        WebElement myDynamicElement = (new WebDriverWait(driver, 10))
+                .until(ExpectedConditions.visibilityOf(unameErrorMsg));
+
+        String actualErrorText = unameErrorMsg.getText();
+
+        boolean compareErrorText = actualErrorText.equals(expectedErrorText);
+        if(!compareErrorText){
+            System.out.println("= = = = = = = Testing value: /" + username + "/ = = = = = = = = = = = =  ");
+            System.out.println("EXPECTED: " + expectedErrorText);
+
+            System.out.println("ACTUAL:   " + actualErrorText);
+            System.out.println("= = = = = = = = = = = = = = = = = = =  = = = = = = = = = = = =  = = = = = ");
+    }
+        Assert.assertTrue(actualErrorText.contains(expectedErrorText));
     }
 
 
