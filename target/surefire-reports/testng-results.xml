@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="11" total="14" passed="3">
+<testng-results skipped="0" failed="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="AutoContentVerification" duration-ms="128867" started-at="2018-03-25T23:04:04Z" finished-at="2018-03-25T23:06:13Z">
+  <suite name="AutoContentVerification" duration-ms="19551" started-at="2018-03-26T01:21:28Z" finished-at="2018-03-26T01:21:48Z">
     <groups>
     </groups>
-    <test name="Sign up new user" duration-ms="128867" started-at="2018-03-25T23:04:04Z" finished-at="2018-03-25T23:06:13Z">
+    <test name="Sign up new user" duration-ms="19551" started-at="2018-03-26T01:21:28Z" finished-at="2018-03-26T01:21:48Z">
       <class name="TestsSignUpPage.EmailVerification">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="setup" is-config="true" duration-ms="8291" started-at="2018-03-25T16:04:04Z" finished-at="2018-03-25T16:04:12Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="setup" is-config="true" duration-ms="9088" started-at="2018-03-25T18:21:28Z" finished-at="2018-03-25T18:21:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="capitalUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="capitalUname" duration-ms="1315" started-at="2018-03-25T16:04:13Z" finished-at="2018-03-25T16:04:14Z">
+        <test-method status="PASS" signature="capitalUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="capitalUname" duration-ms="780" started-at="2018-03-25T18:21:37Z" finished-at="2018-03-25T18:21:38Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capitalUname -->
-        <test-method status="PASS" signature="correctUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="correctUname" duration-ms="1302" started-at="2018-03-25T16:04:14Z" finished-at="2018-03-25T16:04:15Z">
+        <test-method status="PASS" signature="correctUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="correctUname" duration-ms="686" started-at="2018-03-25T18:21:38Z" finished-at="2018-03-25T18:21:39Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctUname -->
-        <test-method status="FAIL" signature="dashUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="dashUname" duration-ms="11200" started-at="2018-03-25T16:04:15Z" finished-at="2018-03-25T16:04:26Z">
+        <test-method status="PASS" signature="dashUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="dashUname" duration-ms="1025" started-at="2018-03-25T18:21:39Z" finished-at="2018-03-25T18:21:40Z">
           <params>
             <param index="0">
               <value>
@@ -56,61 +56,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at Pages.SignUpPage.validUname(SignUpPage.java:234)
-	at TestsSignUpPage.EmailVerification.dashUname(EmailVerification.java:115)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashUname -->
-        <test-method status="FAIL" signature="digitsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="digitsUname" duration-ms="11157" started-at="2018-03-25T16:04:26Z" finished-at="2018-03-25T16:04:37Z">
+        <test-method status="PASS" signature="digitsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="digitsUname" duration-ms="704" started-at="2018-03-25T18:21:40Z" finished-at="2018-03-25T18:21:41Z">
           <params>
             <param index="0">
               <value>
@@ -123,61 +72,10 @@ Session ID: 44f54afb-a756-904e-b268-8232245310d0
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at Pages.SignUpPage.validUname(SignUpPage.java:234)
-	at TestsSignUpPage.EmailVerification.digitsUname(EmailVerification.java:95)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- digitsUname -->
-        <test-method status="FAIL" signature="dotUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="dotUname" duration-ms="10760" started-at="2018-03-25T16:04:37Z" finished-at="2018-03-25T16:04:48Z">
+        <test-method status="PASS" signature="dotUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="dotUname" duration-ms="732" started-at="2018-03-25T18:21:41Z" finished-at="2018-03-25T18:21:41Z">
           <params>
             <param index="0">
               <value>
@@ -190,61 +88,10 @@ Session ID: 44f54afb-a756-904e-b268-8232245310d0
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at Pages.SignUpPage.validUname(SignUpPage.java:234)
-	at TestsSignUpPage.EmailVerification.dotUname(EmailVerification.java:83)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dotUname -->
-        <test-method status="FAIL" signature="dotsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="dotsUname" duration-ms="10872" started-at="2018-03-25T16:04:48Z" finished-at="2018-03-25T16:04:59Z">
+        <test-method status="PASS" signature="dotsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="dotsUname" duration-ms="757" started-at="2018-03-25T18:21:41Z" finished-at="2018-03-25T18:21:42Z">
           <params>
             <param index="0">
               <value>
@@ -257,61 +104,10 @@ Session ID: 44f54afb-a756-904e-b268-8232245310d0
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at Pages.SignUpPage.validUname(SignUpPage.java:234)
-	at TestsSignUpPage.EmailVerification.dotsUname(EmailVerification.java:145)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dotsUname -->
-        <test-method status="PASS" signature="firstDotUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="firstDotUname" duration-ms="1212" started-at="2018-03-25T16:04:59Z" finished-at="2018-03-25T16:05:00Z">
+        <test-method status="PASS" signature="firstDotUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="firstDotUname" duration-ms="693" started-at="2018-03-25T18:21:42Z" finished-at="2018-03-25T18:21:43Z">
           <params>
             <param index="0">
               <value>
@@ -327,7 +123,7 @@ Session ID: 44f54afb-a756-904e-b268-8232245310d0
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstDotUname -->
-        <test-method status="FAIL" signature="lastDotUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="lastDotUname" duration-ms="10958" started-at="2018-03-25T16:05:00Z" finished-at="2018-03-25T16:05:11Z">
+        <test-method status="PASS" signature="lastDotUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="lastDotUname" duration-ms="656" started-at="2018-03-25T18:21:43Z" finished-at="2018-03-25T18:21:43Z">
           <params>
             <param index="0">
               <value>
@@ -340,61 +136,10 @@ Session ID: 44f54afb-a756-904e-b268-8232245310d0
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at Pages.SignUpPage.validUname(SignUpPage.java:234)
-	at TestsSignUpPage.EmailVerification.lastDotUname(EmailVerification.java:139)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lastDotUname -->
-        <test-method status="FAIL" signature="plusUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="plusUname" duration-ms="11198" started-at="2018-03-25T16:05:11Z" finished-at="2018-03-25T16:05:23Z">
+        <test-method status="PASS" signature="plusUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="plusUname" duration-ms="712" started-at="2018-03-25T18:21:43Z" finished-at="2018-03-25T18:21:44Z">
           <params>
             <param index="0">
               <value>
@@ -407,61 +152,10 @@ Session ID: 44f54afb-a756-904e-b268-8232245310d0
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at Pages.SignUpPage.validUname(SignUpPage.java:234)
-	at TestsSignUpPage.EmailVerification.plusUname(EmailVerification.java:109)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- plusUname -->
-        <test-method status="FAIL" signature="specCharsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="specCharsUname" duration-ms="5124" started-at="2018-03-25T16:05:23Z" finished-at="2018-03-25T16:05:28Z">
+        <test-method status="PASS" signature="specCharsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="specCharsUname" duration-ms="675" started-at="2018-03-25T18:21:44Z" finished-at="2018-03-25T18:21:45Z">
           <params>
             <param index="0">
               <value>
@@ -474,49 +168,10 @@ Session ID: 44f54afb-a756-904e-b268-8232245310d0
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at Pages.SignUpPage.validUname(SignUpPage.java:246)
-	at TestsSignUpPage.EmailVerification.specCharsUname(EmailVerification.java:127)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- specCharsUname -->
-        <test-method status="FAIL" signature="twoWordsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="twoWordsUname" duration-ms="10972" started-at="2018-03-25T16:05:28Z" finished-at="2018-03-25T16:05:39Z">
+        <test-method status="PASS" signature="twoWordsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="twoWordsUname" duration-ms="724" started-at="2018-03-25T18:21:45Z" finished-at="2018-03-25T18:21:46Z">
           <params>
             <param index="0">
               <value>
@@ -529,61 +184,10 @@ Session ID: 44f54afb-a756-904e-b268-8232245310d0
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at Pages.SignUpPage.validUname(SignUpPage.java:234)
-	at TestsSignUpPage.EmailVerification.twoWordsUname(EmailVerification.java:157)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoWordsUname -->
-        <test-method status="FAIL" signature="underscoreUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="underscoreUname" duration-ms="11365" started-at="2018-03-25T16:05:39Z" finished-at="2018-03-25T16:05:50Z">
+        <test-method status="PASS" signature="underscoreUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="underscoreUname" duration-ms="648" started-at="2018-03-25T18:21:46Z" finished-at="2018-03-25T18:21:46Z">
           <params>
             <param index="0">
               <value>
@@ -596,61 +200,10 @@ Session ID: 44f54afb-a756-904e-b268-8232245310d0
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at Pages.SignUpPage.validUname(SignUpPage.java:234)
-	at TestsSignUpPage.EmailVerification.underscoreUname(EmailVerification.java:121)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- underscoreUname -->
-        <test-method status="FAIL" signature="unicodeUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="unicodeUname" duration-ms="11319" started-at="2018-03-25T16:05:50Z" finished-at="2018-03-25T16:06:01Z">
+        <test-method status="PASS" signature="unicodeUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="unicodeUname" duration-ms="691" started-at="2018-03-25T18:21:46Z" finished-at="2018-03-25T18:21:47Z">
           <params>
             <param index="0">
               <value>
@@ -663,61 +216,10 @@ Session ID: 44f54afb-a756-904e-b268-8232245310d0
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at Pages.SignUpPage.validUname(SignUpPage.java:234)
-	at TestsSignUpPage.EmailVerification.unicodeUname(EmailVerification.java:151)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unicodeUname -->
-        <test-method status="FAIL" signature="wSpacesUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="wSpacesUname" duration-ms="11432" started-at="2018-03-25T16:06:01Z" finished-at="2018-03-25T16:06:13Z">
+        <test-method status="PASS" signature="wSpacesUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="wSpacesUname" duration-ms="698" started-at="2018-03-25T18:21:47Z" finished-at="2018-03-25T18:21:48Z">
           <params>
             <param index="0">
               <value>
@@ -730,61 +232,10 @@ Session ID: 44f54afb-a756-904e-b268-8232245310d0
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[FirefoxDriver: firefox on MAC (44f54afb-a756-904e-b268-8232245310d0)] -> css selector: span#errormsg_0_GmailAddress.errormsg] (tried for 10 second(s) with 500 MILLISECONDS interval)
-Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
-System info: host: 'Auznali.LobbyWAP', ip: 'fe80:0:0:0:2acf:e9ff:fe50:9c01%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3395, moz:profile: /var/folders/k2/zqt4_dg1303..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 14.5.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 44f54afb-a756-904e-b268-8232245310d0
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at Pages.SignUpPage.validUname(SignUpPage.java:234)
-	at TestsSignUpPage.EmailVerification.wSpacesUname(EmailVerification.java:101)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wSpacesUname -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:TestsSignUpPage.EmailVerification@50f8360d]" name="closeDriver" is-config="true" duration-ms="327" started-at="2018-03-25T16:06:13Z" finished-at="2018-03-25T16:06:13Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="closeDriver" is-config="true" duration-ms="251" started-at="2018-03-25T18:21:48Z" finished-at="2018-03-25T18:21:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
