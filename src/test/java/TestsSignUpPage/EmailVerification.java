@@ -157,6 +157,14 @@ public class EmailVerification {
         sign_up_page.validUname(twoWordsUname, stringCorrectChars);
     }
 
+    @Test
+    @Parameters({"ampUname", "stringCorrectChars"})
+    private void ampUname (String ampUname, String stringCorrectChars){
+        sign_up_page.validUname(ampUname, stringCorrectChars);
+    }
+
+
+
 
 
 

@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.265 s - in TestSuite
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.686 s <<< FAILURE! - in TestSuite
+correctUname(TestsSignUpPage.EmailVerification)  Time elapsed: 1.201 s  <<< FAILURE!
+java.lang.AssertionError
+	at TestsSignUpPage.EmailVerification.correctUname(EmailVerification.java:77)
+
