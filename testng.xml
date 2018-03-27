@@ -19,12 +19,14 @@
     <!-- Data for email username (Uname) verification -->
     <!--Error messages-->
     <parameter name="stringExist" value="That username is taken. Try another."/>
-    <parameter name="stringDotExist" value="Someone already has that username. Note that we ignore periods and capitalization in usernames. Try another?"/>
+    <parameter name="stringDotExist"
+               value="Someone already has that username. Note that we ignore periods and capitalization in usernames. Try another?"/>
     <parameter name="stringCorrectChars" value="Please use only letters (a-z), numbers, and periods."/>
     <parameter name="stringFirstChar" value="The first character of your username should be a letter (a-z) or number."/>
     <parameter name="stringLastChar" value="The last character of your username should be a letter (a-z) or number."/>
     <parameter name="stringNameTaken" value="That username is taken. Try another."/>
     <parameter name="stringTwoDots" value="A fan of punctuation! Alas, usernames can't have consecutive periods."/>
+    <parameter name="stringCharsLimit" value="A fan of punctuation! Alas, usernames can't have consecutive periods."/>
     <!---->
 
     <!--Positive-->
@@ -35,9 +37,10 @@
     <parameter name="wSpacesUname" value="   myemail   "/>
 
 
-
-
     <!--Negative-->
+    <parameter name="minCharsUname" value="hello"/>
+    <parameter name="maxCharsUname" value="therearemorethanеhirtycharacters"/>
+
     <parameter name="plusUname" value="firstname+lastname"/>
     <parameter name="dashUname" value="firstname-lastname"/>
     <parameter name="underscoreUname" value="_______"/>
@@ -47,12 +50,7 @@
     <parameter name="dotsUname" value="myemail..myemail"/>
     <parameter name="unicodeUname" value="あいうえお"/>
     <parameter name="twoWordsUname" value="email (Joe Smith)"/>
-
-
-
-
-
-
+    <parameter name="ampUname" value="&#38;&#38;&#38;&#38;&#38;&#38;"/>
 
 
 
@@ -66,15 +64,10 @@
     <test name="Sign up new user">
 
 
-
-
-
-
-
         <!--<package name = "TestsSignUpPage" />-->
 
         <classes>
-            <!--<class name="TestsSignUpPage.RequiredFields"/>-->
+            <class name="TestsSignUpPage.RequiredFields"/>
             <!--<class name = "TestsSignUpPage1.TestingElemets"/>-->
             <!--<class name = "extentReports.ExtentReportsClassVersion3"/>-->
             <class name="TestsSignUpPage.EmailVerification"/>
