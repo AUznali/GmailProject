@@ -57,6 +57,13 @@ public class RequiredFields {
     public void openDriver(){
         driver.get(testUrl);
         driver.manage().window().maximize();
+
+        //Checking that correct page is opened. If not, open one more time.
+        if(!(driver.getCurrentUrl().equals(testUrl))){
+            driver.get(testUrl);
+            driver.manage().window().maximize();
+        }
+
         sign_up_page.changeLanguage(language);
     }
 
@@ -67,47 +74,47 @@ public class RequiredFields {
 //= = = = = = = = = T_E_S_T_S = = = = = = = = =
 
     // Checking error message, when required field is empty
-    @Test(groups = {"ErrorMessages"})
+    @Test(groups = {"regression"})
     public void firstNameEmpty(){
         sign_up_page.isErrorVisible(firstName, isFirstNameEmpty, lastName);
     }
 
-    @Test(groups = {"ErrorMessages"})
+    @Test(groups = {"regression"})
     public void lastNameEmpty(){
         sign_up_page.isErrorVisible(lastName, isLastNameEmpty, firstName);
     }
 
-    @Test(groups = {"ErrorMessages"})
+    @Test(groups = {"regression"})
     public void eMailEmpty(){
         sign_up_page.isErrorVisible(email, unameErrorMsg, firstName);
     }
 
-    @Test(groups = {"ErrorMessages"})
+    @Test(groups = {"regression"})
     public void passEmpty(){
         sign_up_page.isErrorVisible(pass, isPassEmpty, firstName);
     }
 
-    @Test(groups = {"ErrorMessages"})
+    @Test(groups = {"regression"})
     public void passAgainEmpty(){
         sign_up_page.isErrorVisible(confirmPass, isPassAgainEmpty, firstName);
     }
 
-    @Test(groups = {"ErrorMessages"})
+    @Test(groups = {"regression"})
     public void birthYearEmpty(){
         sign_up_page.isErrorVisible(birthYear, isBYearEmpty, birthDay);
     }
 
-    @Test(groups = {"ErrorMessages"})
+    @Test(groups = {"regression"})
     public void birthDayEmpty(){
         sign_up_page.isErrorVisible(birthDay, isBDayEmpty, birthYear);
     }
 
-    @Test(groups = {"ErrorMessages"})
+    @Test(groups = {"regression"})
     public void birthMonthEmpty(){
         sign_up_page.isErrVisibReq(isBMonthEmpty, birthDay, birthYear);
     }
 
-    @Test(groups = {"ErrorMessages"})
+    @Test(groups = {"regression"})
     public void genderEmpty(){
         sign_up_page.isErrVisibReq(isGenderEmpty, birthDay, birthYear);
     }

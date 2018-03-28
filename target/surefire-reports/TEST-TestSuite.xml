@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="27.686" tests="14" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="29.607" tests="24" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/macbook/JAVA_files/GitHub/GmailProject/target/surefire/surefirebooter7413020058515236284.jar /Users/macbook/JAVA_files/GitHub/GmailProject/target/surefire 2018-03-25T19-05-52_995-jvmRun1 surefire1848454479302278737tmp surefire_05333064126737910790tmp"/>
+    <property name="sun.java.command" value="/Users/macbook/JAVA_files/GitHub/GmailProject/target/surefire/surefirebooter8835998183450852668.jar /Users/macbook/JAVA_files/GitHub/GmailProject/target/surefire 2018-03-27T12-03-07_676-jvmRun1 surefire1486775752552112706tmp surefire_02002290349486222437tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/macbook/JAVA_files/GitHub/GmailProject/target/test-classes:/Users/macbook/JAVA_files/GitHub/GmailProject/target/classes:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-java/3.10.0/selenium-java-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-api/3.10.0/selenium-api-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.10.0/selenium-chrome-driver-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.10.0/selenium-edge-driver-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.10.0/selenium-firefox-driver-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.10.0/selenium-ie-driver-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.10.0/selenium-opera-driver-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.10.0/selenium-safari-driver-3.10.0.jar:/Users/macbook/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/macbook/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/macbook/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/macbook/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/macbook/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/macbook/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/macbook/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/macbook/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/macbook/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/macbook/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/macbook/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/macbook/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/macbook/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.10.0/selenium-remote-driver-3.10.0.jar:/Users/macbook/.m2/repository/org/seleniumhq/selenium/selenium-support/3.4.0/selenium-support-3.4.0.jar:/Users/macbook/.m2/repository/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar:/Users/macbook/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/macbook/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/macbook/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/macbook/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/macbook/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/macbook/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/macbook/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/macbook/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/macbook/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/macbook/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/macbook/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/macbook/.m2/repository/com/aventstack/extentreports/3.1.3/extentreports-3.1.3.jar:/Users/macbook/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/macbook/.m2/repository/org/codehaus/groovy/groovy/1.8.3/groovy-1.8.3.jar:/Users/macbook/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/macbook/.m2/repository/asm/asm/3.2/asm-3.2.jar:/Users/macbook/.m2/repository/asm/asm-commons/3.2/asm-commons-3.2.jar:/Users/macbook/.m2/repository/asm/asm-util/3.2/asm-util-3.2.jar:/Users/macbook/.m2/repository/asm/asm-analysis/3.2/asm-analysis-3.2.jar:/Users/macbook/.m2/repository/asm/asm-tree/3.2/asm-tree-3.2.jar:/Users/macbook/.m2/repository/org/testng/testng/6.9.9/testng-6.9.9.jar:/Users/macbook/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/macbook/.m2/repository/org/apache/ant/ant/1.7.0/ant-1.7.0.jar:/Users/macbook/.m2/repository/org/apache/ant/ant-launcher/1.7.0/ant-launcher-1.7.0.jar:/Users/macbook/.m2/repository/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar:/Users/macbook/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/macbook/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/Users/macbook/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/macbook/JAVA_files/GitHub/GmailProject/target/surefire/surefirebooter7413020058515236284.jar"/>
+    <property name="surefire.real.class.path" value="/Users/macbook/JAVA_files/GitHub/GmailProject/target/surefire/surefirebooter8835998183450852668.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -62,27 +62,28 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="capitalUname" classname="TestsSignUpPage.EmailVerification" time="1.313"/>
-  <testcase name="correctUname" classname="TestsSignUpPage.EmailVerification" time="1.201">
-    <failure type="java.lang.AssertionError">java.lang.AssertionError
-	at TestsSignUpPage.EmailVerification.correctUname(EmailVerification.java:77)
-</failure>
-    <system-out><![CDATA[= = = = = = = Testing value: /&/ = = = = = = = = = = = =  
-EXPECTED: That username is taken. Try another.
-ACTUAL:   Please use between 6 and 30 characters.
-= = = = = = = = = = = = = = = = = = =  = = = = = = = = = = = =  = = = = = 
-]]></system-out>
-  </testcase>
-  <testcase name="dashUname" classname="TestsSignUpPage.EmailVerification" time="1.339"/>
-  <testcase name="digitsUname" classname="TestsSignUpPage.EmailVerification" time="1.268"/>
-  <testcase name="dotUname" classname="TestsSignUpPage.EmailVerification" time="1.253"/>
-  <testcase name="dotsUname" classname="TestsSignUpPage.EmailVerification" time="1.263"/>
-  <testcase name="firstDotUname" classname="TestsSignUpPage.EmailVerification" time="1.215"/>
-  <testcase name="lastDotUname" classname="TestsSignUpPage.EmailVerification" time="1.248"/>
-  <testcase name="plusUname" classname="TestsSignUpPage.EmailVerification" time="1.28"/>
-  <testcase name="specCharsUname" classname="TestsSignUpPage.EmailVerification" time="1.205"/>
-  <testcase name="twoWordsUname" classname="TestsSignUpPage.EmailVerification" time="1.256"/>
-  <testcase name="underscoreUname" classname="TestsSignUpPage.EmailVerification" time="1.184"/>
-  <testcase name="unicodeUname" classname="TestsSignUpPage.EmailVerification" time="1.163"/>
-  <testcase name="wSpacesUname" classname="TestsSignUpPage.EmailVerification" time="1.26"/>
+  <testcase name="birthDayEmpty" classname="TestsSignUpPage.RequiredFields" time="0.153"/>
+  <testcase name="birthMonthEmpty" classname="TestsSignUpPage.RequiredFields" time="0.124"/>
+  <testcase name="birthYearEmpty" classname="TestsSignUpPage.RequiredFields" time="0.097"/>
+  <testcase name="eMailEmpty" classname="TestsSignUpPage.RequiredFields" time="0.14"/>
+  <testcase name="firstNameEmpty" classname="TestsSignUpPage.RequiredFields" time="0.11"/>
+  <testcase name="genderEmpty" classname="TestsSignUpPage.RequiredFields" time="0.102"/>
+  <testcase name="lastNameEmpty" classname="TestsSignUpPage.RequiredFields" time="0.095"/>
+  <testcase name="passAgainEmpty" classname="TestsSignUpPage.RequiredFields" time="0.092"/>
+  <testcase name="passEmpty" classname="TestsSignUpPage.RequiredFields" time="0.096"/>
+  <testcase name="ampUname" classname="TestsSignUpPage.EmailVerification" time="1.269"/>
+  <testcase name="capitalUname" classname="TestsSignUpPage.EmailVerification" time="1.165"/>
+  <testcase name="correctUname" classname="TestsSignUpPage.EmailVerification" time="1.249"/>
+  <testcase name="dashUname" classname="TestsSignUpPage.EmailVerification" time="1.357"/>
+  <testcase name="digitsUname" classname="TestsSignUpPage.EmailVerification" time="1.186"/>
+  <testcase name="dotUname" classname="TestsSignUpPage.EmailVerification" time="0.761"/>
+  <testcase name="dotsUname" classname="TestsSignUpPage.EmailVerification" time="0.712"/>
+  <testcase name="firstDotUname" classname="TestsSignUpPage.EmailVerification" time="0.662"/>
+  <testcase name="lastDotUname" classname="TestsSignUpPage.EmailVerification" time="0.675"/>
+  <testcase name="plusUname" classname="TestsSignUpPage.EmailVerification" time="0.755"/>
+  <testcase name="specCharsUname" classname="TestsSignUpPage.EmailVerification" time="0.72"/>
+  <testcase name="twoWordsUname" classname="TestsSignUpPage.EmailVerification" time="0.717"/>
+  <testcase name="underscoreUname" classname="TestsSignUpPage.EmailVerification" time="0.639"/>
+  <testcase name="unicodeUname" classname="TestsSignUpPage.EmailVerification" time="0.638"/>
+  <testcase name="wSpacesUname" classname="TestsSignUpPage.EmailVerification" time="0.661"/>
 </testsuite>

@@ -1,17 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="14" passed="13">
+<testng-results skipped="0" failed="0" total="24" passed="24">
   <reporter-output>
   </reporter-output>
-  <suite name="AutoContentVerification" duration-ms="26867" started-at="2018-03-26T02:05:54Z" finished-at="2018-03-26T02:06:21Z">
+  <suite name="AutoContentVerification" duration-ms="28571" started-at="2018-03-27T19:03:08Z" finished-at="2018-03-27T19:03:37Z">
     <groups>
+      <group name="ErrorMessages">
+        <method signature="RequiredFields.birthDayEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="birthDayEmpty" class="TestsSignUpPage.RequiredFields"/>
+        <method signature="RequiredFields.birthMonthEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="birthMonthEmpty" class="TestsSignUpPage.RequiredFields"/>
+        <method signature="RequiredFields.birthYearEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="birthYearEmpty" class="TestsSignUpPage.RequiredFields"/>
+        <method signature="RequiredFields.eMailEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="eMailEmpty" class="TestsSignUpPage.RequiredFields"/>
+        <method signature="RequiredFields.firstNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="firstNameEmpty" class="TestsSignUpPage.RequiredFields"/>
+        <method signature="RequiredFields.genderEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="genderEmpty" class="TestsSignUpPage.RequiredFields"/>
+        <method signature="RequiredFields.lastNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="lastNameEmpty" class="TestsSignUpPage.RequiredFields"/>
+        <method signature="RequiredFields.passAgainEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="passAgainEmpty" class="TestsSignUpPage.RequiredFields"/>
+        <method signature="RequiredFields.passEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="passEmpty" class="TestsSignUpPage.RequiredFields"/>
+      </group> <!-- ErrorMessages -->
     </groups>
-    <test name="Sign up new user" duration-ms="26867" started-at="2018-03-26T02:05:54Z" finished-at="2018-03-26T02:06:21Z">
-      <class name="TestsSignUpPage.EmailVerification">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="setup" is-config="true" duration-ms="9142" started-at="2018-03-25T19:05:54Z" finished-at="2018-03-25T19:06:03Z">
+    <test name="Sign up new user" duration-ms="28571" started-at="2018-03-27T19:03:08Z" finished-at="2018-03-27T19:03:37Z">
+      <class name="TestsSignUpPage.RequiredFields">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="setup" is-config="true" duration-ms="11" started-at="2018-03-27T12:03:08Z" finished-at="2018-03-27T12:03:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="capitalUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="capitalUname" duration-ms="1305" started-at="2018-03-25T19:06:03Z" finished-at="2018-03-25T19:06:05Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="beforeClass" is-config="true" duration-ms="5351" started-at="2018-03-27T12:03:08Z" finished-at="2018-03-27T12:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="openDriver()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="openDriver" is-config="true" duration-ms="2461" started-at="2018-03-27T12:03:14Z" finished-at="2018-03-27T12:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method status="PASS" signature="birthDayEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="birthDayEmpty" duration-ms="149" started-at="2018-03-27T12:03:16Z" finished-at="2018-03-27T12:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- birthDayEmpty -->
+        <test-method status="PASS" signature="birthMonthEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="birthMonthEmpty" duration-ms="137" started-at="2018-03-27T12:03:16Z" finished-at="2018-03-27T12:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- birthMonthEmpty -->
+        <test-method status="PASS" signature="birthYearEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="birthYearEmpty" duration-ms="97" started-at="2018-03-27T12:03:17Z" finished-at="2018-03-27T12:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- birthYearEmpty -->
+        <test-method status="PASS" signature="eMailEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="eMailEmpty" duration-ms="140" started-at="2018-03-27T12:03:17Z" finished-at="2018-03-27T12:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eMailEmpty -->
+        <test-method status="PASS" signature="firstNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="firstNameEmpty" duration-ms="110" started-at="2018-03-27T12:03:17Z" finished-at="2018-03-27T12:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstNameEmpty -->
+        <test-method status="PASS" signature="genderEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="genderEmpty" duration-ms="102" started-at="2018-03-27T12:03:17Z" finished-at="2018-03-27T12:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- genderEmpty -->
+        <test-method status="PASS" signature="lastNameEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="lastNameEmpty" duration-ms="95" started-at="2018-03-27T12:03:17Z" finished-at="2018-03-27T12:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastNameEmpty -->
+        <test-method status="PASS" signature="passAgainEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="passAgainEmpty" duration-ms="93" started-at="2018-03-27T12:03:17Z" finished-at="2018-03-27T12:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passAgainEmpty -->
+        <test-method status="PASS" signature="passEmpty()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="passEmpty" duration-ms="96" started-at="2018-03-27T12:03:17Z" finished-at="2018-03-27T12:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passEmpty -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:TestsSignUpPage.RequiredFields@26f67b76]" name="closeDriver" is-config="true" duration-ms="257" started-at="2018-03-27T12:03:37Z" finished-at="2018-03-27T12:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- TestsSignUpPage.RequiredFields -->
+      <class name="TestsSignUpPage.EmailVerification">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="setup" is-config="true" duration-ms="6062" started-at="2018-03-27T12:03:17Z" finished-at="2018-03-27T12:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ampUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="ampUname" duration-ms="1268" started-at="2018-03-27T12:03:23Z" finished-at="2018-03-27T12:03:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[&&&&&&]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Please use only letters (a-z), numbers, and periods.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ampUname -->
+        <test-method status="PASS" signature="capitalUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="capitalUname" duration-ms="1165" started-at="2018-03-27T12:03:25Z" finished-at="2018-03-27T12:03:26Z">
           <params>
             <param index="0">
               <value>
@@ -27,11 +108,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- capitalUname -->
-        <test-method status="FAIL" signature="correctUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="correctUname" duration-ms="1203" started-at="2018-03-25T19:06:05Z" finished-at="2018-03-25T19:06:06Z">
+        <test-method status="PASS" signature="correctUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="correctUname" duration-ms="1249" started-at="2018-03-27T12:03:26Z" finished-at="2018-03-27T12:03:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[&]]>
+                <![CDATA[myemail]]>
               </value>
             </param>
             <param index="1">
@@ -40,49 +121,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at Pages.SignUpPage.validUname(SignUpPage.java:246)
-	at TestsSignUpPage.EmailVerification.correctUname(EmailVerification.java:77)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctUname -->
-        <test-method status="PASS" signature="dashUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="dashUname" duration-ms="1339" started-at="2018-03-25T19:06:06Z" finished-at="2018-03-25T19:06:07Z">
+        <test-method status="PASS" signature="dashUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="dashUname" duration-ms="1358" started-at="2018-03-27T12:03:27Z" finished-at="2018-03-27T12:03:28Z">
           <params>
             <param index="0">
               <value>
@@ -98,7 +140,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dashUname -->
-        <test-method status="PASS" signature="digitsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="digitsUname" duration-ms="1268" started-at="2018-03-25T19:06:07Z" finished-at="2018-03-25T19:06:08Z">
+        <test-method status="PASS" signature="digitsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="digitsUname" duration-ms="1186" started-at="2018-03-27T12:03:28Z" finished-at="2018-03-27T12:03:30Z">
           <params>
             <param index="0">
               <value>
@@ -114,7 +156,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- digitsUname -->
-        <test-method status="PASS" signature="dotUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="dotUname" duration-ms="1252" started-at="2018-03-25T19:06:08Z" finished-at="2018-03-25T19:06:10Z">
+        <test-method status="PASS" signature="dotUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="dotUname" duration-ms="760" started-at="2018-03-27T12:03:30Z" finished-at="2018-03-27T12:03:30Z">
           <params>
             <param index="0">
               <value>
@@ -130,7 +172,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dotUname -->
-        <test-method status="PASS" signature="dotsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="dotsUname" duration-ms="1264" started-at="2018-03-25T19:06:10Z" finished-at="2018-03-25T19:06:11Z">
+        <test-method status="PASS" signature="dotsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="dotsUname" duration-ms="712" started-at="2018-03-27T12:03:30Z" finished-at="2018-03-27T12:03:31Z">
           <params>
             <param index="0">
               <value>
@@ -146,7 +188,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dotsUname -->
-        <test-method status="PASS" signature="firstDotUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="firstDotUname" duration-ms="1215" started-at="2018-03-25T19:06:11Z" finished-at="2018-03-25T19:06:12Z">
+        <test-method status="PASS" signature="firstDotUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="firstDotUname" duration-ms="663" started-at="2018-03-27T12:03:31Z" finished-at="2018-03-27T12:03:32Z">
           <params>
             <param index="0">
               <value>
@@ -162,7 +204,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstDotUname -->
-        <test-method status="PASS" signature="lastDotUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="lastDotUname" duration-ms="1248" started-at="2018-03-25T19:06:12Z" finished-at="2018-03-25T19:06:13Z">
+        <test-method status="PASS" signature="lastDotUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="lastDotUname" duration-ms="675" started-at="2018-03-27T12:03:32Z" finished-at="2018-03-27T12:03:32Z">
           <params>
             <param index="0">
               <value>
@@ -178,7 +220,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lastDotUname -->
-        <test-method status="PASS" signature="plusUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="plusUname" duration-ms="1279" started-at="2018-03-25T19:06:13Z" finished-at="2018-03-25T19:06:15Z">
+        <test-method status="PASS" signature="plusUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="plusUname" duration-ms="755" started-at="2018-03-27T12:03:32Z" finished-at="2018-03-27T12:03:33Z">
           <params>
             <param index="0">
               <value>
@@ -194,7 +236,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- plusUname -->
-        <test-method status="PASS" signature="specCharsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="specCharsUname" duration-ms="1206" started-at="2018-03-25T19:06:15Z" finished-at="2018-03-25T19:06:16Z">
+        <test-method status="PASS" signature="specCharsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="specCharsUname" duration-ms="720" started-at="2018-03-27T12:03:33Z" finished-at="2018-03-27T12:03:34Z">
           <params>
             <param index="0">
               <value>
@@ -210,7 +252,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- specCharsUname -->
-        <test-method status="PASS" signature="twoWordsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="twoWordsUname" duration-ms="1255" started-at="2018-03-25T19:06:16Z" finished-at="2018-03-25T19:06:17Z">
+        <test-method status="PASS" signature="twoWordsUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="twoWordsUname" duration-ms="717" started-at="2018-03-27T12:03:34Z" finished-at="2018-03-27T12:03:35Z">
           <params>
             <param index="0">
               <value>
@@ -226,7 +268,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoWordsUname -->
-        <test-method status="PASS" signature="underscoreUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="underscoreUname" duration-ms="1185" started-at="2018-03-25T19:06:17Z" finished-at="2018-03-25T19:06:18Z">
+        <test-method status="PASS" signature="underscoreUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="underscoreUname" duration-ms="639" started-at="2018-03-27T12:03:35Z" finished-at="2018-03-27T12:03:35Z">
           <params>
             <param index="0">
               <value>
@@ -242,7 +284,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- underscoreUname -->
-        <test-method status="PASS" signature="unicodeUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="unicodeUname" duration-ms="1163" started-at="2018-03-25T19:06:18Z" finished-at="2018-03-25T19:06:19Z">
+        <test-method status="PASS" signature="unicodeUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="unicodeUname" duration-ms="638" started-at="2018-03-27T12:03:35Z" finished-at="2018-03-27T12:03:36Z">
           <params>
             <param index="0">
               <value>
@@ -258,7 +300,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unicodeUname -->
-        <test-method status="PASS" signature="wSpacesUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="wSpacesUname" duration-ms="1261" started-at="2018-03-25T19:06:19Z" finished-at="2018-03-25T19:06:21Z">
+        <test-method status="PASS" signature="wSpacesUname(java.lang.String, java.lang.String)[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="wSpacesUname" duration-ms="661" started-at="2018-03-27T12:03:36Z" finished-at="2018-03-27T12:03:37Z">
           <params>
             <param index="0">
               <value>
@@ -274,7 +316,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wSpacesUname -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:TestsSignUpPage.EmailVerification@61dc03ce]" name="closeDriver" is-config="true" duration-ms="242" started-at="2018-03-25T19:06:21Z" finished-at="2018-03-25T19:06:21Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:TestsSignUpPage.EmailVerification@153f5a29]" name="closeDriver" is-config="true" duration-ms="220" started-at="2018-03-27T12:03:37Z" finished-at="2018-03-27T12:03:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
