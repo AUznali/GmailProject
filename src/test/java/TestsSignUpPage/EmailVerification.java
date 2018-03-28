@@ -55,7 +55,7 @@ public class EmailVerification {
         driver.manage().window().maximize();
 
         //Checking that correct page is opened. If not, open one more time.
-        if(!(driver.getCurrentUrl().contains(testUrl))){
+        if(!(driver.getCurrentUrl().equals(testUrl))){
             driver.get(testUrl);
             driver.manage().window().maximize();
         }
@@ -71,31 +71,31 @@ public class EmailVerification {
 
 
     //POSITIVE//
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"correctUname", "stringExist"})
     private void correctUname(String correctUname, String stringExist){
         sign_up_page.validUname(correctUname, stringExist);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"dotUname", "stringDotExist"})
     private void dotUname (String dotUname, String stringDotExist){
         sign_up_page.validUname(dotUname, stringDotExist);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"capitalUname", "stringDotExist"})
     private void capitalUname (String capitalUname, String stringDotExist){
         sign_up_page.validUname(capitalUname, stringDotExist);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"digitsUname", "stringExist"})
     private void digitsUname (String digitsUname, String stringExist){
         sign_up_page.validUname(digitsUname, stringExist);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"wSpacesUname", "stringNameTaken"})
     private void wSpacesUname (String wSpacesUname, String stringNameTaken){
         sign_up_page.validUname(wSpacesUname, stringNameTaken);
@@ -103,61 +103,61 @@ public class EmailVerification {
 
 
     //NEGATIVE//
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"plusUname", "stringCorrectChars"})
     private void plusUname (String plusUname, String stringCorrectChars){
         sign_up_page.validUname(plusUname, stringCorrectChars);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"dashUname", "stringCorrectChars"})
     private void dashUname (String dashUname, String stringCorrectChars){
         sign_up_page.validUname(dashUname, stringCorrectChars);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"underscoreUname", "stringCorrectChars"})
     private void underscoreUname (String underscoreUname, String stringCorrectChars){
         sign_up_page.validUname(underscoreUname, stringCorrectChars);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"specCharsUname", "stringCorrectChars"})
     private void specCharsUname (String specCharsUname, String stringCorrectChars){
         sign_up_page.validUname(specCharsUname, stringCorrectChars);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"firstDotUname", "stringFirstChar"})
     private void firstDotUname (String firstDotUname, String stringFirstChar){
         sign_up_page.validUname(firstDotUname, stringFirstChar);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"lastDotUname", "stringLastChar"})
     private void lastDotUname (String lastDotUname, String stringLastChar){
         sign_up_page.validUname(lastDotUname, stringLastChar);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"dotsUname", "stringTwoDots"})
     private void dotsUname (String dotsUname, String stringTwoDots){
         sign_up_page.validUname(dotsUname, stringTwoDots);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"unicodeUname", "stringCorrectChars"})
     private void unicodeUname (String unicodeUname, String stringCorrectChars){
         sign_up_page.validUname(unicodeUname, stringCorrectChars);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"twoWordsUname", "stringCorrectChars"})
     private void twoWordsUname (String twoWordsUname, String stringCorrectChars){
         sign_up_page.validUname(twoWordsUname, stringCorrectChars);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     @Parameters({"ampUname", "stringCorrectChars"})
     private void ampUname (String ampUname, String stringCorrectChars){
         sign_up_page.validUname(ampUname, stringCorrectChars);
